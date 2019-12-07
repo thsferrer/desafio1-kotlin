@@ -4,19 +4,23 @@
     android:layout_height="fill_parent"
     android:orientation="vertical"
     android:layout_gravity="center">
+
     <EditText
         android:id="@+id/gasolina"
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:ems="10"
-        android:inputType="number" />
+        android:inputType="number"
+        android:hint="Valor Gasolina"
+        />
 
     <EditText
         android:id="@+id/alcool"
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:ems="10"
-        android:inputType="number" />
+        android:inputType="number"
+        android:hint="Valor Álcool"/>
 
     <Button
         android:id="@+id/botao"
