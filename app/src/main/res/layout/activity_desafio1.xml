@@ -5,6 +5,7 @@
     android:orientation="vertical"
     android:layout_gravity="center">
 
+    
     <EditText
         android:id="@+id/gasolina"
         android:layout_width="match_parent"
