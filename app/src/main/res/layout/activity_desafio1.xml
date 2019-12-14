@@ -5,7 +5,7 @@
     android:orientation="vertical"
     android:layout_gravity="center">
 
-    
+
     <EditText
         android:id="@+id/gasolina"
         android:layout_width="match_parent"
@@ -35,5 +35,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="20dp"
+        android:gravity="center_horizontal"
         android:text="Resultado" />
 </LinearLayout>
